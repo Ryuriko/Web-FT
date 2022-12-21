@@ -1,0 +1,95 @@
+body {
+	background: url('https://bnz06pap001files.storage.live.com/y4mCzNwoSed19vyttWK8N9v2aMCd5CX3xR5BWMnquEwDWQicikJlk6A3DQQnWQpKKUilsRj9LX9CST4oGDXcQKAU3w1wAxE1u844ZBQmd3CygI5__zJ1HYtUJrlvx-puRXDI--a1Dkx3Ts7X8pYwyOxDOh5Sxwkw5zRsBtfDtHFKjWAPosC_Z0l3UdkO8Rj71nR?width=2000&height=739&cropmode=none');
+	background-size: 1530px 800px;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: Verdana, Tahoma, sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 30px;
+	background: #748AA1;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #495B71;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #ffffff;
+   color: #a35654;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: rgb(124, 147, 130);
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	background-color: #59385c;
+}
+
+a {
+	text-align: center;
+	color: #fff;
+	
+}
+.ca {
+	font-size: 20px;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.ca:hover {
+	text-decoration: underline;
+} 

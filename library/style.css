@@ -1,0 +1,276 @@
+@keyframes gambar-slider {
+    0%{
+        width: 100%;
+        height: 657px;
+        background-image: url(https://bidikutama.com/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-13-at-17.48.13.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+    30%{
+        width: 100%;
+        height: 657px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Engineeringuntirta.jpg/220px-Engineeringuntirta.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+    65%{
+        width: 100%;
+        height: 657px;
+        background-image: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/07/13/3581449600.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+    100%{
+        width: 100%;
+        height: 657px;
+        background-image: url(https://bidikutama.com/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-13-at-17.48.13.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+}
+
+
+/* Hal Index */
+.container-index {
+    color: white;
+    min-height: 657px;
+    background-image: url(../media/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-index {
+    padding-left: 45%;
+}
+.navbar-slide {
+    padding-left: 42%;
+}
+.opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hal FT */
+.gambar-slider {
+    animation: gambar-slider 15s infinite;
+}
+
+/* Hal Peminjaman */
+
+/* Hal Admin */
+.navbar-admin {
+    padding-left: 39%;
+}
+
+/* Footer */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+/* footer section*/
+a {
+    text-decoration: none;
+}
+.footer_section {
+  margin-top: 9%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 75px 0 40px 0;
+  text-align: center;
+  
+}
+
+.footer_section h4 {
+  font-size: 20px;
+}
+
+.footer_section h4,
+.footer_section .footer-logo {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.footer_section p {
+  color: #ffffff;
+}
+
+.footer_section .footer-col {
+  margin-bottom: 30px;
+}
+
+.footer_section .footer_contact .contact_link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer_section .footer_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer_section .footer_contact .contact_link_box a:hover {
+  color: #9c9393;
+}
+
+.footer_section .footer-logo {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.footer_section .footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_section .footer_social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin: 0 2.5px;
+  font-size: 15px;
+}
+
+.footer_section .footer_social a:hover {
+  color: #9c9393;
+}
+
+.footer_section .footer-info {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer_section .footer-info p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer_section .footer-info p a {
+  color: inherit;
+}
+
+/* Hal About */
+.team-area{
+    padding-top: 5%;
+	text-align: center;
+	justify-content: center;
+}
+.single-team{
+    background-color: #000;
+    margin-bottom: 10px;
+}
+.single-team:hover .social{
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+.img-area{
+    overflow: hidden;
+    position: relative;
+}
+.img-area img{
+    width: 100%;
+}
+.img-area:hover img{
+    transform: scale(1.2)
+}
+.img-area img{
+    transition: all 0.4s ease 0s;
+}
+@media (max-width: 768px){
+    .img-area img{
+        display: inline-block;
+    }
+}
+.img-area .social{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.img-area .social p{
+	text-align: center;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    height: 40px;
+}
+.img-area .social ul{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.img-area .social ul li a{
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.img-area .social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+}
+.img-text{
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+}
+.img-text h4{
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    letter-spacing: 5px;
+}
+.img-text h5{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
